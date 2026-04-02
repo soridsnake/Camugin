@@ -148,3 +148,9 @@ img { display: block; width: 100%; height: 100%; object-fit: cover; }
 .nav-link:hover {
   color: var(--clay);
 }
+
+/* About responsive */
+@media (max-width: 900px) {
+  .about-grid { grid-template-columns: 1fr !important; height: auto !important; }
+  .about-images { height: 450px !important; }
+}
