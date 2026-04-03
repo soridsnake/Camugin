@@ -1,13 +1,14 @@
 // src/components/Hero.jsx
 import { motion } from 'framer-motion'
 import { ArrowRight } from 'lucide-react'
+import heroImg from '../assets/images/camugin-hero.webp'
 
 export default function Hero() {
   return (
     <section id="home" aria-label="Hero" style={{ height: '100vh', position: 'relative', display: 'flex', alignItems: 'center', justifyContent: 'center', overflow: 'hidden' }}>
       {/* Immagine di sfondo */}
       <div style={{ position: 'absolute', inset: 0, zIndex: 0 }}>
-        <img src="images/camugin-hero.webp" alt="Pizzeria Camugin" fetchpriority="high" loading="eager" width="1920" height="1080" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+        <img src={heroImg} alt="Pizzeria Camugin" fetchpriority="high" loading="eager" width="1920" height="1080" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
       </div>
 
       {/* Vignetta calda */}

@@ -1,13 +1,19 @@
 // src/components/Gallery.jsx
 import { motion } from 'framer-motion'
+import heroImg from '../assets/images/camugin-hero.webp'
+import pizza1Img from '../assets/images/camugin-pizza-1.webp'
+import pestoImg from '../assets/images/camugin-pesto.webp'
+import storia1Img from '../assets/images/camugin-storia1.webp'
+import tiramisuImg from '../assets/images/camugin-tiramisu.webp'
+import storia2Img from '../assets/images/camugin-storia2.webp'
 
 const photos = [
-  { src: 'images/camugin-hero.webp', alt: 'Pizzeria Camugin' },
-  { src: 'images/camugin-pizza-1.webp', alt: 'Pizza Napoletana' },
-  { src: 'images/camugin-pesto.webp', alt: 'Trofie al pesto' },
-  { src: 'images/camugin-storia1.webp', alt: 'Interno del locale' },
-  { src: 'images/camugin-tiramisu.webp', alt: 'Tiramisù Camugin' },
-  { src: 'images/camugin-storia2.webp', alt: 'Dettagli del locale' },
+  { src: heroImg, alt: 'Pizzeria Camugin' },
+  { src: pizza1Img, alt: 'Pizza Napoletana' },
+  { src: pestoImg, alt: 'Trofie al pesto' },
+  { src: storia1Img, alt: 'Interno del locale' },
+  { src: tiramisuImg, alt: 'Tiramisù Camugin' },
+  { src: storia2Img, alt: 'Dettagli del locale' },
 ]
 
 export default function Gallery() {
