@@ -1,13 +1,15 @@
 // src/components/Gallery.jsx
 import { motion } from 'framer-motion'
 
+const base = import.meta.env.BASE_URL
+
 const photos = [
-  { src: '/images/camugin-hero.webp', alt: 'Pizzeria Camugin' },
-  { src: '/images/camugin-pizza-1.webp', alt: 'Pizza Napoletana' },
-  { src: '/images/camugin-pesto.webp', alt: 'Trofie al pesto' },
-  { src: '/images/camugin-storia1.webp', alt: 'Interno del locale' },
-  { src: '/images/camugin-tiramisu.webp', alt: 'Tiramisù Camugin' },
-  { src: '/images/camugin-storia2.webp', alt: 'Dettagli del locale' },
+  { src: `${base}images/camugin-hero.webp`, alt: 'Pizzeria Camugin' },
+  { src: `${base}images/camugin-pizza-1.webp`, alt: 'Pizza Napoletana' },
+  { src: `${base}images/camugin-pesto.webp`, alt: 'Trofie al pesto' },
+  { src: `${base}images/camugin-storia1.webp`, alt: 'Interno del locale' },
+  { src: `${base}images/camugin-tiramisu.webp`, alt: 'Tiramisù Camugin' },
+  { src: `${base}images/camugin-storia2.webp`, alt: 'Dettagli del locale' },
 ]
 
 export default function Gallery() {

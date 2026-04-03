@@ -35,13 +35,13 @@ export default function About() {
               initial={{ opacity: 0, y: 60 }} whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 1, ease: [0.16, 1, 0.3, 1] }} viewport={{ once: true }}
               style={{ position: 'absolute', top: 0, right: 0, width: '75%', height: '65%', overflow: 'hidden' }}>
-              <img src="/images/camugin-storia1.webp" alt="Interno del locale Camugin" loading="lazy" />
+              <img src={`${import.meta.env.BASE_URL}images/camugin-storia1.webp`} alt="Interno del locale Camugin" loading="lazy" />
             </motion.div>
             <motion.div
               initial={{ opacity: 0, scale: 0.95 }} whileInView={{ opacity: 1, scale: 1 }}
               transition={{ duration: 1, delay: 0.2, ease: [0.16, 1, 0.3, 1] }} viewport={{ once: true }}
               style={{ position: 'absolute', bottom: 0, left: 0, width: '60%', height: '50%', overflow: 'hidden', border: '12px solid var(--cream)', boxShadow: '0 20px 60px rgba(44,24,16,0.15)' }}>
-              <img src="/images/camugin-storia2.webp" alt="Pizza artigianale Camugin" loading="lazy" />
+              <img src={`${import.meta.env.BASE_URL}images/camugin-storia2.webp`} alt="Pizza artigianale Camugin" loading="lazy" />
             </motion.div>
           </div>
         </div>
