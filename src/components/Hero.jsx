@@ -7,7 +7,7 @@ export default function Hero() {
     <section id="home" aria-label="Hero" style={{ height: '100vh', position: 'relative', display: 'flex', alignItems: 'center', justifyContent: 'center', overflow: 'hidden' }}>
       {/* Immagine di sfondo */}
       <div style={{ position: 'absolute', inset: 0, zIndex: 0 }}>
-        <img src={`${import.meta.env.BASE_URL}images/camugin-hero.webp`} alt="Pizzeria Camugin" fetchpriority="high" loading="eager" width="1920" height="1080" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+        <img src="images/camugin-hero.webp" alt="Pizzeria Camugin" fetchpriority="high" loading="eager" width="1920" height="1080" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
       </div>
 
       {/* Vignetta calda */}
